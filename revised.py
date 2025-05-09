@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import torch
-from torch.utils.data import DataLoader
+from torch.utils.data import Dataset, DataLoader
 from transformers import RobertaTokenizer, RobertaModel
 from torch.optim import AdamW
 from sklearn.preprocessing import LabelEncoder
@@ -65,7 +65,7 @@ def preprocess_data(df):
 
 
     # Function to extract city and category information from user query
-    def extract_query_info(query_text, available_cities, available_categories):
+def extract_query_info(query_text, available_cities, available_categories):
     """
     Extract city and category information from a user query.
 
@@ -443,7 +443,7 @@ def main():
         model,
         embeddings,
         df,
-        city=city_query,
+        city=city_query,  #
         top_n=3
     )
 
