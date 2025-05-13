@@ -1,6 +1,6 @@
-DOWNLOAD ROBERTA EMBEDDINGS
-https://drive.google.com/file/d/1mV3jJDlvks0zCUuHgzvv149ZK2AYC9qY/view?usp=sharing
+DOWNLOAD ROBERTA EMBEDDINGS FROM GDRIVE
+LINK: https://drive.google.com/file/d/1mV3jJDlvks0zCUuHgzvv149ZK2AYC9qY/view?usp=sharing
 
-lagay sa model_output yung tokenizer, roberta_embeddings, destination_embeddings
+Directions: lagay sa model_output yung tokenizer folder, roberta_embeddings.pt, destination_embeddings.py
 
- nasa labas lng ng directory (same with try.py script)
+Sa labas ng directory lang yung csv at try.py script
